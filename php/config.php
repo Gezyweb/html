@@ -1,3 +1,4 @@
-<?php
+<?php 
 
-$con = mysqli_connect("localhost","root","","mysite") or die("Couldnt Connect");
+    $con = mysqli_connect("localhost","root","","mysite") or die("Couldn't Connect");
+?>
