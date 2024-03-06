@@ -34,7 +34,9 @@ h2 {
     color: #333;
 }
 
-input[type="text"],
+input[type="login-user"],
+input[type="login-password"],
+input[type="username"],
 input[type="email"],
 input[type="password"],
 input[type="submit"] {
@@ -59,4 +61,25 @@ input[type="submit"]:hover {
 
 .image {
     margin-bottom: 20px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.message{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #45a049;
 }

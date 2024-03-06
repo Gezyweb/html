@@ -13,11 +13,11 @@
         <div class="image"> <img src="assets/logo.png" width="200" height="200"></div>
         <h2>Login</h2>
         <form action="" method="post">
-                <div class="field input">
-                    <input type="text" name="username" placeholder="Username" id="Username" required><br>
+                <div class="Login-username">
+                    <input type="login-user" name="username" placeholder="Username" id="Username" required><br>
                 </div>
-                <div class="field input">
-                    <input type="password" name="password" placeholder="Password" id="Password" required><br>
+                <div class="Login-password">
+                    <input type="login-password" name="password" placeholder="Password" id="Password" required><br>
                 </div>
                 <div class="field">
                     <input type="submit" name="submit" value="Login">
